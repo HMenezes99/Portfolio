@@ -1,0 +1,31 @@
+body{
+    background-color: #181824;
+}
+/* borda arco-iris
+.conteudo{ 
+    background: linear-gradient(to right, var(--cores-dancantes));
+    width: 250px;
+    height: 90px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    animation: coresDancantes 2s linear infinite;
+}
+@keyframes coresDancantes{
+    100%{
+        filter: hue-rotate(360deg);
+    }}
+ */
+ 
+/* Scroll da pagina */
+::-webkit-scrollbar{
+    width: 30px
+}
+::-webkit-scrollbar-track{
+    background-color: #131313;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #A55EFF;
+    border-radius: 10px;
+}
