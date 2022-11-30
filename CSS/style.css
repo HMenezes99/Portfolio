@@ -1,6 +1,30 @@
-html {
-    padding: 3rem;
-    background-color: #212123;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #EFEFEF;
+
+*{
+    font-family: "Verdana", sans-serif;
+}
+
+header{
+    background: darkgray;
+}
+
+.github {
+    width: fit-content;
+    font-size: 15px;
+    background: linear-gradient(to left,#E70FAA, #00BEFB);
+    background: -webkit-linear-gradient(to left,#E70FAA, #00BEFB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: #E70FAA, #00BEFB 2s infinite;
+  }
+
+  nav{
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15;
+    font-size: 12px;
 }
