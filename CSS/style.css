@@ -3,7 +3,7 @@
     font-family: "Verdana", sans-serif;
 }
 
-header{
+.menu{
     background: darkgray;
 }
 
@@ -28,3 +28,35 @@ nav li{
     margin: 0 0 0 15;
     font-size: 12px;
 }
+
+.home{
+  background-color: #f0f8ff;
+}
+ 
+
+.name{
+  width: fit-content;
+  font-size: 50px;
+  background: linear-gradient(to left,#E70FAA, #00BEFB);
+  background: -webkit-linear-gradient(to left,#E70FAA, #00BEFB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: #E70FAA, #00BEFB 2s infinite;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+}
+
+.resumo{
+  justify-content: center;
+  width: fit-content;
+  font-size: 30px;
+  background: linear-gradient(to left,#E70FAA, #00BEFB);
+  background: -webkit-linear-gradient(to left,#E70FAA, #00BEFB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: #E70FAA, #00BEFB 2s infinite;
+}
+
