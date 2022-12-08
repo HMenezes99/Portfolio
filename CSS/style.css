@@ -1,62 +1,112 @@
-
-*{
-    font-family: "Verdana", sans-serif;
+* {
+  font-family: "Verdana", sans-serif;
+  background-image: url(../img/background_pag.jpg);
 }
 
-.menu{
-    background: darkgray;
+.menu {
+  background: darkgray;
+}
+
+.bloco-menu {
+  display: flex;
 }
 
 .github {
-    width: fit-content;
-    font-size: 15px;
-    background: linear-gradient(to left,#E70FAA, #00BEFB);
-    background: -webkit-linear-gradient(to left,#E70FAA, #00BEFB);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: #E70FAA, #00BEFB 2s infinite;
-  }
-
-  nav{
-    position: absolute;
-    top: 0;
-    right: 10px;
-  }
-
-nav li{
-    display: inline;
-    margin: 0 0 0 15;
-    font-size: 12px;
+  width: fit-content;
+  font-size: 20px;
+  background: linear-gradient(to left, #E70FAA, #00BEFB);
+  background: -webkit-linear-gradient(to left, #E70FAA, #00BEFB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.home{
+
+nav {
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 0 8em;
+}
+
+nav li {
+  display: inline-flex;
+  margin: 0 0 0 15;
+  font-size: 16px;
+  justify-content: space-between;
+  padding-left: 4px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
   background-color: #f0f8ff;
 }
- 
 
-.name{
+.img_perfil{
+  align-items: left;
+}
+
+.home .button_menu{
+  align-items: flex-start;
+}
+
+.name {
   width: fit-content;
   font-size: 50px;
-  background: linear-gradient(to left,#E70FAA, #00BEFB);
-  background: -webkit-linear-gradient(to left,#E70FAA, #00BEFB);
+  background: linear-gradient(to left, #E70FAA, #00BEFB);
+  background: -webkit-linear-gradient(to left, #E70FAA, #00BEFB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: #E70FAA, #00BEFB 2s infinite;
 }
 
-.about{
+.about {
   display: flex;
   justify-content: center;
 }
 
-.resumo{
+.title_about{
   justify-content: center;
   width: fit-content;
   font-size: 30px;
-  background: linear-gradient(to left,#E70FAA, #00BEFB);
-  background: -webkit-linear-gradient(to left,#E70FAA, #00BEFB);
+  background: linear-gradient(to left, #E70FAA, #00BEFB);
+  background: -webkit-linear-gradient(to left, #E70FAA, #00BEFB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: #E70FAA, #00BEFB 2s infinite;
 }
 
+.technologies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_technologies{
+  justify-content: center;
+  width: fit-content;
+  font-size: 30px;
+  background: linear-gradient(to left, #E70FAA, #00BEFB);
+  background: -webkit-linear-gradient(to left, #E70FAA, #00BEFB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: #E70FAA, #00BEFB 2s infinite;
+}
+
+.learning{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_learning{
+  justify-content: center;
+  width: fit-content;
+  font-size: 30px;
+  background: linear-gradient(to left, #E70FAA, #00BEFB);
+  background: -webkit-linear-gradient(to left, #E70FAA, #00BEFB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: #E70FAA, #00BEFB 2s infinite;
+}
